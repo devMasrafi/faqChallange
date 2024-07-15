@@ -23,6 +23,7 @@
 
 body{
     font-family: WorkSansVaria;
+    font-size: 16px;
     background: url(../images/background-pattern-desktop.svg);
     background-size: cover;
     background-position: center;
@@ -30,10 +31,27 @@ body{
     padding: 120px 0 15px 0;
     position: relative;
     background-color: var(--Light--pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.mainSection{
- background-color: var(--White);
+Section{
+    position: absolute;
+    top: 260px;
+    background-color: var(--White);
+    padding: 20px 30px;
+    height: 500px;
+    width: 450px;
+    border-radius: 10px;
+    filter: drop-shadow( 1px 1px 10px rgb(167, 166, 166));
 
+}
+
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
